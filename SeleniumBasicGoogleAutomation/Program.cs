@@ -31,8 +31,8 @@ namespace SeleniumFirst
 
             // navigate to the google page
 
-            driver.Navigate().GoToUrl("https:\\www.google.com");
-            Console.WriteLine("opened https:\\www.google.com");
+            driver.Navigate().GoToUrl("https://www.google.com");
+            Console.WriteLine("opened https://www.google.com");
             // find the element
 
             IWebElement searchBox = driver.FindElement(By.Name("q"));
