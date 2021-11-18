@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
@@ -7,23 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SeleniumFirst
-{
-    class Program
+{   
+    [TestFixture]
+   public class Program
     {
         // web driver
         IWebDriver driver;
 
-     
-        
+    
 
-
-        void Init()
+        [SetUp]
+        public void Initialise()
         {
             driver = new ChromeDriver(".");
         }
 
-        void Exec()
+        [Test]
+        public void Execute()
         {
+            
             // navigate to the google page
 
             driver.Navigate().GoToUrl("https:\\www.google.com");
@@ -37,10 +40,12 @@ namespace SeleniumFirst
 
 
             searchButton.Click();
+            Assert.Pass();
+          
         }
 
-
-        void CleanUp()
+        [TearDown]
+        public void CleanUp()
         {
             driver.Close();
             driver.Quit();
