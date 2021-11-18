@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qmrR63byEnZYHL2SRW74MQ7+a4FqAzGLoBxL0JJSXN5ll/qCMp4q3tuNzaGCQYLf4HUTiJ3dwvMzVPGfJ9TTpQ==",
+  "dgSpecHash": "hBC/jqmLtjdpNLy3tBfubOJzktLzlvEaVQc+AJ+cCOzysAWdDXLjzipvNnfzmMxcpE97qE/0y3FnrX61isBGFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\abhil\\Documents\\repos\\csharp selenium\\SeleniumBasicGoogleAutomation\\SeleniumBasicGoogleAutomation\\SeleniumBasicGoogleAutomation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\abhil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\abhil\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\abhil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\abhil\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\abhil\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512"
   ],
   "logs": []
