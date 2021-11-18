@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumBasicGoogleAutomation", "SeleniumBasicGoogleAutomation\SeleniumBasicGoogleAutomation.csproj", "{BC21F64C-9624-4EE9-B7CE-2442D043E827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC21F64C-9624-4EE9-B7CE-2442D043E827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC21F64C-9624-4EE9-B7CE-2442D043E827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC21F64C-9624-4EE9-B7CE-2442D043E827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC21F64C-9624-4EE9-B7CE-2442D043E827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E666063B-A64D-4489-8431-065D377A53CB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qmrR63byEnZYHL2SRW74MQ7+a4FqAzGLoBxL0JJSXN5ll/qCMp4q3tuNzaGCQYLf4HUTiJ3dwvMzVPGfJ9TTpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abhil\\Documents\\repos\\csharp selenium\\SeleniumBasicGoogleAutomation\\SeleniumBasicGoogleAutomation\\SeleniumBasicGoogleAutomation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\abhil\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
