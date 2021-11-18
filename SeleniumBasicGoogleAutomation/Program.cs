@@ -10,12 +10,20 @@ namespace SeleniumFirst
 {
     class Program
     {
-        static void Main(string[] args)
+        // web driver
+        IWebDriver driver;
+
+     
+        
+
+
+        void Init()
         {
+            driver = new ChromeDriver(".");
+        }
 
-
-
-            IWebDriver driver = new ChromeDriver(".");
+        void Exec()
+        {
             // navigate to the google page
 
             driver.Navigate().GoToUrl("https:\\www.google.com");
@@ -29,10 +37,11 @@ namespace SeleniumFirst
 
 
             searchButton.Click();
+        }
 
 
-
-
+        void CleanUp()
+        {
             driver.Close();
             driver.Quit();
         }
